@@ -1,3 +1,5 @@
+// delete this in prod
+
 const writer = require('./randomWriter');
 const ourWriter = new writer.writer(2);
 ourWriter.read(
